@@ -1,10 +1,14 @@
 import ReactDOM from 'react-dom/client';
+import logo from './assets/images/logo.svg'; //  correct path if image is here (NOTE : images should imported direct URL won't work like normal HTML tag)
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     <h2>FUN FACTS ABOUT REACT</h2>
+    <img src={logo} s alt="React Logo" width="200" />
     <ul>
       <li> React Was Created at Facebook</li>
       <li> React is Just the View Layer</li>
